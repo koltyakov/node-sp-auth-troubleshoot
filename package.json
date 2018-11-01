@@ -1,0 +1,32 @@
+{
+  "name": "node-sp-auth-troubleshoot",
+  "version": "1.0.0",
+  "description": "Node.js SharePoint Auth Troubleshooting",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "keywords": [
+    "sharepoint",
+    "nodejs",
+    "auth",
+    "troubleshoot",
+    "javascript"
+  ],
+  "author": "Andrew Koltyakov <andrew.koltyakov@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koltyakov/node-sp-auth-troubleshoot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koltyakov/node-sp-auth-troubleshoot/issues"
+  },
+  "homepage": "https://github.com/koltyakov/node-sp-auth-troubleshoot#readme",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "node-sp-auth": "^2.5.6",
+    "node-sp-auth-config": "^2.5.6"
+  }
+}
