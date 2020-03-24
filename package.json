@@ -27,6 +27,6 @@
   "dependencies": {
     "commander": "^5.0.0",
     "node-sp-auth": "^2.5.7",
-    "node-sp-auth-config": "^2.9.2"
+    "node-sp-auth-config": "^2.9.3"
   }
 }
