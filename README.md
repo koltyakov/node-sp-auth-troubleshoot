@@ -1,5 +1,9 @@
 # Node.js SharePoint Authentication troubleshooting
 
+## Prerequisites
+
+- Node.js 10.19 or greater (this requirements is applied `node-sp-auth` v3)
+
 ## Clone the project
 
 ```bash
