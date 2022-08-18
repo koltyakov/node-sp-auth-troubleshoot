@@ -25,8 +25,11 @@
   "homepage": "https://github.com/koltyakov/node-sp-auth-troubleshoot#readme",
   "license": "MIT",
   "dependencies": {
-    "commander": "^5.1.0",
-    "node-sp-auth": "^3.0.1",
-    "node-sp-auth-config": "^3.0.1"
+    "commander": "^9.4.0",
+    "node-sp-auth": "^3.0.6",
+    "node-sp-auth-config": "^3.0.4"
+  },
+  "volta": {
+    "node": "16.17.0"
   }
 }
