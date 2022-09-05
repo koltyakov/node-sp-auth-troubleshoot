@@ -2,13 +2,13 @@
 
 const { AuthConfig } = require('node-sp-auth-config');
 const { getAuth } = require('node-sp-auth');
-const program = require('commander');
+const { program } = require('commander');
 
 program
   .option('-e, --env [value]', `Environment code name, e.g. 'UAT'`, '')
   .parse(process.argv);
 
-const { env } = program;
+const env = program.getOptionValue('env');
 
 (async () => {
 
