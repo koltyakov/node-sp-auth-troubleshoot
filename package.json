@@ -31,5 +31,8 @@
   },
   "volta": {
     "node": "16.17.0"
+  },
+  "devDependencies": {
+    "electron": "^20.1.1"
   }
 }
